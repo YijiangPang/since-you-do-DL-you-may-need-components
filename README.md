@@ -5,6 +5,7 @@
 
 # [Model](https://github.com/YijiangPang/since-you-do-ML-you-may-need/tree/main/Model)
 * Mixed of Expert [MoE](https://github.com/YijiangPang/since-you-do-ML-you-may-need/tree/main/Model/MoE), ResNet18 version
+* [Neural ODE model](https://github.com/YijiangPang/since-you-do-ML-you-may-need/tree/main/Model/NeuralODE_mode.py)
 
 
 # [Loss funtion](https://github.com/YijiangPang/since-you-do-ML-you-may-need/tree/main/Loss_function)
