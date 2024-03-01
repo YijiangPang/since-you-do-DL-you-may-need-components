@@ -17,3 +17,4 @@
 
 # [ML pipeline](https://github.com/YijiangPang/since-you-do-ML-you-may-need/tree/main/ML_pipeline)
 * [Outlier](https://github.com/YijiangPang/since-you-do-ML-you-may-need/tree/main/ML_pipeline/Outlier). Spectral Signature[[1]](https://arxiv.org/abs/1811.00636), Quantum Entropy Scoring[[2]](https://arxiv.org/abs/1906.11366)
+* [BaggingClassifier](https://github.com/YijiangPang/since-you-do-DL-you-may-need-components/blob/main/ML_pipeline/BaggingClassifier.py)
