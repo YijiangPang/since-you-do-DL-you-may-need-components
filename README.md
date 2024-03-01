@@ -7,6 +7,8 @@
 * Mixed of Expert ([MoE](https://github.com/YijiangPang/since-you-do-ML-you-may-need/tree/main/Model/MoE)), ResNet18 version
 
 
-
 # [Loss funtion](https://github.com/YijiangPang/since-you-do-ML-you-may-need/tree/main/Loss_function)
 * DRO loss, Chi2, CVaR
+
+# [Dataset](https://github.com/YijiangPang/since-you-do-ML-you-may-need/tree/main/Dataset)
+* [Chest radiography datasets](https://github.com/YijiangPang/since-you-do-ML-you-may-need/tree/main/Dataset). [CheXpert](https://stanfordmlgroup.github.io/competitions/chexpert/) and [MIMIC-CXR Database](https://physionet.org/content/mimic-cxr/2.0.0/)
