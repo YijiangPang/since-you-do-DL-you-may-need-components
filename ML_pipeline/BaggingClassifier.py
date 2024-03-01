@@ -1,6 +1,7 @@
 from sklearn.model_selection import train_test_split
 from sklearn.metrics import accuracy_score
 import numpy as np
+import sklearn
 from multiprocessing import Pool
 from itertools import repeat
 
@@ -77,3 +78,11 @@ class BaggingClassifier():
             yhat = self.clf.predict_proba(x_test)
             yhat = yhat[:, 1]
         return yhat
+
+if __name__ == "__main__":
+    clf = BaggingClassifier(estimator = sklearn.linear_model.LogisticRegression(),
+                                            n_estimators=99, 
+                                            max_samples = 0.9,
+                                            voting_type = "hard",  #"hard", "hard_val_f", "hard_prob_f", "soft", "soft_val_f", "soft_prob_f"
+                                            prob_threshold = 0.6,
+                                            val_threshold = 0.6)
